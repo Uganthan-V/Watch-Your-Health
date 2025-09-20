@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"fitness-appoint","appId":"1:803739729462:android:4ce96d9f117d77e2256297","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"fitness-appoint","configurations":{"android":"1:803739729462:android:4ce96d9f117d77e2256297","web":"1:803739729462:web:ae26525dd752c513256297"}}}}}}
