@@ -127,7 +127,7 @@ class AssessmentListScreen extends ConsumerWidget {
             ...state.items.asMap().entries.map((entry) {
               final index = entry.key;
               final item = entry.value;
-              final imagePath = item.imageUrl.isEmpty ? 'assets/assessment/img1.svg' : item.imageUrl;
+              final imagePath = item.imageUrl.isEmpty ? 'assets/assement/image1.png' : item.imageUrl;
               return AssessmentTile(
                 id: item.id,
                 title: item.title,

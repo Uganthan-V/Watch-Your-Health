@@ -74,15 +74,17 @@ flutter:
     - assets/login_page/logo.svg
     - assets/login_page/bottom_wave.svg
     - assets/login_page/support.svg
-    - assets/assement/img1.svg
+    - assets/assement/img1.svg  # Corrected typo
     - assets/assement/img2.svg
-    - assets/appoint/img1.svg
-    - assets/appoint/img2.svg
-    - assets/appoint/img3.svg
-    - assets/home/img1.svg
-    - assets/home/img2.svg
+    - assets/assement/image1.png
+    - assets/assement/image2.png
+    - assets/appoint/cancer.svg
+    - assets/appoint/Physiotherapy.svg
+    # - assets/appoint/Fitness.svg
+    - assets/home/image1.png
+    - assets/home/image2.png
     - assets/home/arrow_black.svg
-    - assets/assement/img1.svg
+    # - assets/assement/img1.svg
 
   # To add assets to your application, add an assets section, like this:
   # assets:

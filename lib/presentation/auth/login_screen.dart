@@ -1262,6 +1262,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                       Center(
                         child: SvgPicture.asset(
                           'assets/login_page/logo.svg',
+                          // "assets/assement/img2.svg",
                           width: 130,
                           height: 40,
                           placeholderBuilder: (context) => const SizedBox(
