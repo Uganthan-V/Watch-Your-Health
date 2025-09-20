@@ -10,8 +10,8 @@ plugins {
 
 android {
     namespace = "com.example.fitness_appoint"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 34
+    ndkVersion = "27.2.12479018"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -23,24 +23,23 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.fitness_appoint"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        minSdk = 23                    // Use 'minSdk' with Int, no quotes
+        targetSdk = 34                 // Use 'targetSdk' with Int, no quotes
+        versionCode = 2                // Int, no quotes
+        versionName = "1.1.0"          // String with '='
+        multiDexEnabled = true         // Boolean with '='
     }
 
     buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
+        getByName("release") {
             signingConfig = signingConfigs.getByName("debug")
+            isMinifyEnabled = false      // Use 'isMinifyEnabled' in Kotlin DSL
+            isShrinkResources = false    // Use 'isShrinkResources' in Kotlin DSL
         }
     }
 }
+
 
 flutter {
     source = "../.."

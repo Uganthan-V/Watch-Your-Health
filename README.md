@@ -13,6 +13,7 @@ A Flutter project scaffold for a healthcare application with Firebase integratio
 - [Next Steps](#next-steps)
 - [Contributing](#contributing)
 - [License](#license)
+- [Previews](#previews)
 
 ## Overview
 AllyCare is a Flutter-based healthcare application scaffold designed to streamline development with a modular, scalable architecture. It integrates Firebase for authentication and data storage, uses Riverpod for state management, and follows clean architecture principles to ensure maintainability and testability.
@@ -140,5 +141,23 @@ lib/
 - **Testing**: Add unit tests for use cases and integration tests for UI flows.
 - **Performance Optimization**: Optimize Firestore queries and pagination for large datasets.
 
+## Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add YourFeature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Previews
+Below are preview images of the AllyCare application displayed side by side:
+
+<table>
+  <tr>
+    <td><img src="assets/previews/preview1.jpg" alt="Preview 1" width="300"/></td>
+    <td><img src="assets/previews/preview2.jpg" alt="Preview 2" width="300"/></td>
+  </tr>
+</table>
