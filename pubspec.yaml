@@ -80,7 +80,7 @@ flutter:
     - assets/assement/image2.png
     - assets/appoint/cancer.svg
     - assets/appoint/Physiotherapy.svg
-    # - assets/appoint/Fitness.svg
+    - assets/appoint/Fitness.svg
     - assets/home/image1.png
     - assets/home/image2.png
     - assets/home/arrow_black.svg
