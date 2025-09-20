@@ -140,12 +140,5 @@ lib/
 - **Testing**: Add unit tests for use cases and integration tests for UI flows.
 - **Performance Optimization**: Optimize Firestore queries and pagination for large datasets.
 
-## Contributing
-1. Fork the repository.
-2. Create a feature branch (`git checkout -b feature/branch-name`).
-3. Commit changes with clear messages (`git commit -m "Add feature X"`).
-4. Push to the branch (`git push origin feature/branch-name`).
-5. Open a pull request with a detailed description.
 
-Maintain a clean commit history with descriptive messages. Follow the existing code style and architecture patterns.
 
